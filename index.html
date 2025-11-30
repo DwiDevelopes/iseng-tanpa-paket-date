@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class = "coco">
+    <center><h1>Template Login</h1></center>
+    </div>
+    <center><div class = "login_page">
+        <div class = "card">
+            <img src = "img/icon.png">
+        <div class = "masukan">
+            <h1>Login Bersama Aku</h1>
+            <input type = "text" class = "name" placeholder="Username" required>
+            <input type = "email" class = "email" placeholder="Password" required>
+            <a href = "masuk.html"><button class = "tombol">Login</button></a>
+        </div>
+    </div>
+</div></center>
+    <style>
+        .name,.email {
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            color: aliceblue;
+            background-color: black;
+        }
+        .tombol {
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            color: aliceblue;
+            background-color: black;
+        }
+        body{
+            background-color: rgb(13, 1, 1);
+        }
+        .masukan{
+            font-style: italic;
+        }
+        .coco{
+            font-weight: 20px;
+            padding-block: 20px;
+            padding: auto;
+            font-style: italic;
+            font-size: large;
+            color:white;
+        }
+        .login_page{
+            grid-column: auto;
+            grid-auto-rows: auto;
+            display: flex;
+            position: absolute;
+            left: 500px;
+        }
+        .card{
+            color:white;
+            padding-left: 20px;
+            padding-bottom: 8px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgb(40, 41, 41);
+            box-shadow: aqua;
+        }
+        img{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+</body>
+</html>
